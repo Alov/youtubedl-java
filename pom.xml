@@ -6,7 +6,7 @@
 
     <groupId>com.sapher</groupId>
     <artifactId>youtubedl</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>YoutubeDL wrapper</name>
@@ -26,6 +26,8 @@
     </scm>
 
     <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jackson.version>2.7.4</jackson.version>
     </properties>
